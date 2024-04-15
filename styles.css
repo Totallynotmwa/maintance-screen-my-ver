@@ -1,0 +1,35 @@
+body {
+    backdrop-fitler: blur(10px);
+    webkit-backdrop-fitler: blur(10px);
+    font-family: satoshi,motham ;
+    background-image: url("https://files.catbox.moe/2254rq.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+
+}
+:selection{
+color: white;
+}
+.Maintance{
+    
+    backdrop-filter: blur(10px);
+    webkit-backdrop-fitler: blur(10px);
+    
+    border: black solid 2px ;
+    border-radius: 0.5em;
+}
+.Thunder{
+display: block;  
+margin-left: auto;
+margin-right: auto;  
+width: 398px;
+    height: 290px;
+    border-radius: 0.5em;
+}
